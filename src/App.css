@@ -51,7 +51,7 @@
 }
 
 .card{
-  border: solid 1px white;
+  border: solid 1px black;
   font-size: 40px;
   cursor: pointer;
   background: white;
