@@ -43,7 +43,6 @@ function App() {
             count === 2 ? count = 0 : i--;
         }
         setCards(newCards);
-        console.log(cards);
     };
     const resetGame = () => {
         let newCards = [...cards];
