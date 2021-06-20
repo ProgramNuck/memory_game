@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.wrapper{
+    width: 400px ;
+    height: 300px;
+    border: solid 1px white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  margin-left: auto;
+  margin-right: auto
+
+
+}
+
+.card{
+  border: solid 1px white;
+  font-size: 40px;
+  cursor: pointer;
+  background: antiquewhite;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
