@@ -47,6 +47,7 @@ function App() {
     };
     const resetGame = () => {
         let newCards = [...cards];
+        setCountOfSteps(0);
         newCards.map(el => el.img = '');
         newCards.map(el => el.default = '');
         setCards(newCards);
